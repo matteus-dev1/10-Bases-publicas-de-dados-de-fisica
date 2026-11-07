@@ -1,0 +1,11 @@
+﻿nome,link,tema,formato,tamanho
+The Well (PolymathicAI),https://github.com/PolymathicAI/the_well,"Simulações numéricas: fluidos, turbulência, MHD, acústica, sistemas biológicos",HDF5 (interface PyTorch; streaming pelo Hugging Face),15 TB em 16 datasets
+HIGGS (UCI),https://archive.ics.uci.edu/dataset/280/higgs,Física de partículas: sinal de bóson de Higgs vs. ruído (classificação),CSV compactado (.csv.gz),"11 milhões de linhas, 28 features, 2,6 GB"
+MAGIC Gamma Telescope (UCI),https://archive.ics.uci.edu/dataset/159/magic+gamma+telescope,Astrofísica de altas energias: raios gama vs. hádrons (classificação),CSV (magic04.data),"19.020 linhas, 10 features, 1,4 MB"
+Stellar Classification SDSS17 (Kaggle),https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17,"Astronomia: classificação de estrelas, galáxias e quasares",CSV,"100.000 linhas, 17 features + classe"
+NASA Exoplanet Archive,https://exoplanetarchive.ipac.caltech.edu,"Exoplanetas: massa, raio, órbita e estrela hospedeira",CSV / VOTable (download e API TAP),~6.150 planetas confirmados (atualização semanal)
+CERN Open Data Portal,https://opendata.cern.ch,"Física de partículas: colisões do LHC (CMS, ATLAS, ALICE, LHCb)",ROOT (amostras educacionais em CSV),Mais de 5 PB no total
+Gaia DR3 (ESA),https://gea.esac.esa.int/archive/,"Astrometria: posição, paralaxe e movimento próprio de estrelas","Consultas ADQL/TAP -> CSV, FITS, VOTable","~1,8 bilhão de fontes"
+GWOSC (LIGO/Virgo/KAGRA),https://gwosc.org,Ondas gravitacionais: séries de strain e catálogos de eventos,HDF5 e GWF (biblioteca gwpy),"Séries a 4096 ou 16384 Hz, arquivos de 4096 s por corrida"
+Materials Project,https://next-gen.materialsproject.org,"Física de materiais: estrutura cristalina, band gap e energia (DFT)",JSON via API (pacote mp-api; chave gratuita),Mais de 140 mil materiais
+NIST Atomic Spectra Database (ASD),https://physics.nist.gov/asd,Física atômica: linhas espectrais e níveis de energia,Tabelas web exportáveis (CSV / texto),~300 mil linhas espectrais (versão 5.12)
