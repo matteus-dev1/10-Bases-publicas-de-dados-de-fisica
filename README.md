@@ -8,6 +8,7 @@ Catálogo de 10 bases públicas de dados de física, levantado para apoiar a esc
 |---|---|
 | `fontes_fisica.csv` | Catálogo com nome, link, tema, formato e tamanho de cada base |
 | `mapear_fontes.py` | Script que monta o catálogo com pandas, valida os campos e exporta o CSV |
+| `explorar_magic.ipynb` | Exploração da base MAGIC (a menor do catálogo): download, estrutura, estatísticas, gráficos e resumo |
 | `requirements.txt` | Dependências do projeto |
 
 ## Bases catalogadas
